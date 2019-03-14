@@ -1,0 +1,22 @@
+/Write a program that accepts as input the mass, in grams, and density, in grams per cubic
+//centimeters, and outputs the volume of the object using the formula: density ¼ mass / volume. Format your output to
+//two decimal places
+//Problem2
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	cout << "Enter Mass" <<endl;
+	cin >> Mass;
+	cout << "Enter Volume" <<endl;
+	cin >> Volume;
+	cout << "Enter Density" <<endl;
+	cin >> Density;
+	cout >> "Density * 1/4 *mass / volume" << Density * 1/4 *mass / volume <<endl;
+
+	_getch();
+	return 0;
+}
